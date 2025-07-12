@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <header>
+    <div class="container">
+      <nav>
+        <ul>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===== HERO SECTION ===== -->
+  <section id="hero">
+  <div class="hero-glow"></div>
+
+  <!-- 🌐 Floating Tech Icons -->
+  <div class="floating-tech-icons">
+    <img src="html.png" class="tech-icon" alt="HTML">
+    <img src="css-3.svg" class="tech-icon" alt="CSS">
+    <img src="js.png" class="tech-icon" alt="JavaScript">
+    <img src="react-js-icon.svg" class="tech-icon" alt="React">
+    <img src="java-4-logo.svg" class="tech-icon" alt="Java">
+  </div>
+
+  <div class="hero-content" data-aos="fade-up">
+    <img src="Hussain Profile photo.jpg" alt="Profile" class="hero-img">
+    <h2>Hi, I'm <span>Hussain Motarwala</span></h2>
+    <p>B.Tech Student | Web & Software Developer</p>
+  </div>
+</section>
+
+
+  <!-- ===== ABOUT SECTION ===== -->
+  <section id="about" class="section">
+    <div class="container" data-aos="fade-right">
+      <h2>About Me</h2>
+      <p class="about-description">I’m a B.Tech student and a passionate web and software developer. I enjoy creating clean, user-friendly websites using modern web technologies, and I also have experience building desktop applications using Java. Whether it’s a personal website, a mini-game, or a Java-based system, I love solving problems through code and turning ideas into real, working solutions. I’m always eager to learn new tools and take on new challenges to grow as a developer.</p>
+      <ul>
+        <li>🎓 B.Tech in Computer Science</li>
+        <li>💼 Interned at Prodigy Infotech</li>
+        <li>👨‍💻 Skilled in HTML, CSS, JavaScript, React</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS SECTION ===== -->
+  <section id="projects" class="section">
+    <div class="container" data-aos="fade-left">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+
+        <div class="project-card">
+          <img src="tic-tac-toe.svg" alt="Tic Tac Toe Icon" class="project-icon">
+          <h3>Tic Tac Toe</h3>
+          <p>Classic 2-player game built with HTML, CSS & JavaScript.</p>
+        </div>
+
+        <div class="project-card">
+          <img src="stopwatch.svg" alt="Stopwatch Icon" class="project-icon">
+          <h3>Stopwatch</h3>
+          <p>Functional stopwatch with lap support using JS timers.</p>
+        </div>
+
+        <div class="project-card">
+          <img src="portfolio.svg" alt="Portfolio Icon" class="project-icon">
+          <h3>Portfolio Website</h3>
+          <p>Responsive personal portfolio built with HTML, CSS & JS.</p>
+        </div>
+
+        <div class="project-card">
+          <img src="Skillswap.jpg" alt="SkillSwap Icon" class="project-icon">
+          <h3>SkillSwap</h3>
+          <p>A Collaborative platform for Student to match their skills with their Peers using React + Node js + MongoDB</p>
+        </div>
+
+        <div class="project-card">
+          <img src="weather.svg" alt="Weather App Icon" class="project-icon">
+          <h3>Weather App</h3>
+          <p>Weather forecasting using OpenWeatherMap API using Java</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT SECTION ===== -->
+  <section id="contact" class="section">
+    <div class="container" data-aos="zoom-in">
+      <h2>Contact Me</h2>
+      <p>📧 Email: hussainmotarwala34@gmail.com</p>
+      <p>📱 Phone: +91 9175533700</p>
+      <a href="https://www.linkedin.com/in/hussain-motarwala-0a9a5926b/">
+        <p style="color: white;">🌐LinkedIn</p>
+      </a>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <p>&copy; 2025 Hussain Motarwala. All rights reserved.</p>
+  </footer>
+
+  <script src="index.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init();</script>
+</body>
+</html>
